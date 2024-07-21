@@ -33,9 +33,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
-      // Process the form submission here
       console.log('Formulário enviado com sucesso!');
-      // Limpar os campos após o envio bem-sucedido
       setUsername('');
       setEmail('');
       setPassword('');
