@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div className="container">
       <div className="login-box">
-        <h1 className="title">Login</h1>
+        <h1 className="title1">Login</h1>
         <form className="form">
           <input type="text" className="input" placeholder="Username" />
           <input type="password" className="input" placeholder="Password" />
@@ -14,7 +14,7 @@ const Login = () => {
         </form>
         <div className="links">
           <a href="#" className="link">Esqueceu a senha?</a>
-          <Link to='/cadastro' className="link">Cadastrar-se</Link>
+          <Link to='/cadastro' className="link">Cadastrar-se</Link> 
         </div>
       </div>
     </div>
