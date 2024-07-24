@@ -1,12 +1,9 @@
 import React from 'react';
 import '../CSS/Home.css';
-import Navbar from './Navbar';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Importar ícones de redes sociais
 
 const HomePage = () => {
   return (
-    <>
-      <Navbar />
       <div className="homepage-container">
         <header className="header">
           <h1 className="title">Bem-vindo ao GameHub</h1>
@@ -110,7 +107,6 @@ const HomePage = () => {
           <p className="footer-copy">© 2024 GameHub. Todos os direitos reservados.</p>
         </footer>
       </div>
-    </>
   );
 };
 

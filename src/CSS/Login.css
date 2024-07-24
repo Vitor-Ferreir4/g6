@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
   }
   
   .input:focus {
-    border-color: #6a11cb;
+    border-color: #333;
     box-shadow: 0 0 10px rgba(106, 17, 203, 0.2);
     outline: none;
   }
@@ -60,7 +60,7 @@ body {
     padding: 15px;
     border: none;
     border-radius: 25px;
-    background-color: #6a11cb;
+    background-color: #333;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -82,7 +82,7 @@ body {
   }
   
   .link {
-    color: #6a11cb;
+    color: #333;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
