@@ -30,5 +30,3 @@ app.get('/api/test', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
-
-// EU SOU FODAAAAAAAAAAA
