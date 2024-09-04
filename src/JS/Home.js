@@ -2,7 +2,7 @@ import React from 'react';
 import '../CSS/Home.css';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Importar ícones de redes sociais
 
-const HomePage = () => {
+function Home() {
   return (
       <div className="homepage-container">
         <header className="header">
@@ -16,7 +16,7 @@ const HomePage = () => {
               <article className="news-item">
                 <h3 className="news-title">Novo Jogo Lançado!</h3>
                 <p className="news-description">Confira o lançamento mais recente no mundo dos games...</p>
-                <button className="read-more">Leia mais</button>
+                <a href='https://shopee.com.br'><button className="read-more">Leia mais</button></a>
               </article>
               <article className="news-item">
                 <h3 className="news-title">Atualização Disponível</h3>
@@ -110,4 +110,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
